@@ -302,3 +302,34 @@ body {
     transform: translateY(-50%
     );
 }
+#section4 {
+    height: 373px;
+    background-color: black;
+    padding :72px 0;
+    margin-top: 8px;
+}
+#main-div {
+    width: 50vw;
+    position: relative;
+    background-color: aqua;
+}
+#section4 div h1 {
+    font-size: 48px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    width: 419.453px;
+    position: absolute;
+    right: 0;
+}
+#section4 div p {
+    color: rgb(255, 255, 255);
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    width: 419.453px;
+    position: absolute;
+    right: 0;
+    top: 105px;
+}
