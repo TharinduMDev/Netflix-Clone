@@ -246,3 +246,59 @@ body {
 #image2 {
     text-align: right;
 }
+#section3 div img {
+    width: 77.5%;
+}
+#image2 #loading {
+    height: 99px;
+    width: 42%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: calc(78%/2);
+    transform: translateX(50%);
+    bottom: 30px;
+    padding: 8px 12px;
+    border: 2px solid rgb(93, 92, 92);
+    border-radius: 12px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 32px 0px;
+    /* font-family: Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif; */
+    min-width: 240px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+#stranger {
+    width: 76px;
+    text-align: left;
+}
+#loading #div1{
+    display: flex;
+    align-items: center;
+}
+#loading #div1 div h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+#loading #div1 div p{
+    color: rgb(0, 113, 235);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+} 
+#download-icon {
+    width: 60px;
+    position: relative;
+}
+#download-icon img {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%
+    );
+}
