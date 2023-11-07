@@ -514,3 +514,65 @@ body {
     background-color: rgb(183, 31, 31);
     border-color:  rgb(150, 15, 15);
 }
+#section7 {
+    background-color: black;
+    padding : 72px 48px;
+    margin-top: 8px;  
+    
+}
+#section7 #table nav {
+    list-style: none;
+}
+#section7 #table nav li {
+    padding-bottom: 15px;
+}
+#section7 #table nav{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    margin-left: 8.75%;
+    margin-right: 8.75%;
+}
+#section7 h1 {
+    margin-left: 8.75%;
+    padding-bottom: 23px;  
+}
+#section7 h1 a{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+#section7 #table nav li a{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+#section7 #language {
+    width: 124px;
+    height: 32px;
+    background-color:  rgb(24, 24, 24);;
+    border:1px solid rgb(98, 98, 98);
+    margin-left: 8.75%;
+    font-family :"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto,Ubuntu, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+#icon-lan {
+    /* position: absolute; */
+    left: 0;
+    color: white;
+    
+}
+
+#section7 #country {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 24px;
+    margin-left: 8.75%;
+}
