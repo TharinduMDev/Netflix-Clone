@@ -1274,3 +1274,33 @@ body {
         margin-left: 25px;
     }
 }
+@media all and ( max-width : 520px) {
+
+    #section1 {
+        height: auto;
+    }
+
+    #text-area form  {
+        text-align: center;
+    }
+    #text-area #text-feild {
+        margin-right: 0;
+        padding-right: 0;
+        width: 70%;
+    }
+    #text-area #text-feild input {
+        width: 50%;
+    }
+    #tv img{
+        width: 80%;
+        padding-top: 0;
+    }
+    #tv video {
+        width: 60%;
+        left: 0;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 34.5%;
+    }
+}
