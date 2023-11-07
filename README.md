@@ -32,7 +32,7 @@
 1. Clone the repository to your local machine:
 
     ```bash
-   
+   git clone https://github.com/TharinduMDev/Netflix-Clone.git
     ```
 
 2. Open the project in a web browser:
@@ -51,7 +51,7 @@ You can view the Netflix clone in your web browser after opening the index.html 
 Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
+2. Create a new branch for your feature or bug fix: `git switch -c feature-name`.
 3. Make your changes and commit them: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request with a clear description of your changes.
