@@ -576,3 +576,80 @@ body {
     margin-top: 24px;
     margin-left: 8.75%;
 }
+@media all and (max-width: 1280px) {
+    #head div img {
+        left: -13px;
+    }
+    #head button {
+        right: 40px;
+    }
+    #enjoy-tv {
+        padding-left: 30px;
+    }
+    #tv-des{
+        padding-left: 30px;
+    }
+    #tv img{
+        width: 94%;
+    }
+    #tv video {
+        width: 65%;
+        right: 38%;
+    }
+    #download {
+        padding-right: 0;
+    
+    }
+    #download-des {
+        padding-right: 35px;
+    }
+    #image2 img {
+        /* width: 1000vw; */
+        /* height: 20px; */
+        width: 1000px;
+    }
+    #section5 div:first-child {
+        padding-left: 15px;
+    }
+    #section5 div:first-child img {
+        width: 94%;
+    }
+    #section5 div h1 {
+        padding-right: 6px;
+    }
+    #section5 div p {
+        padding-right: 32px;
+    }
+    #section6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #section6 .item {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #section6 .item-sub {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #section7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #section7 #table nav {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #section7 h1{
+        margin-left: 35px;
+    }
+    #section7 #language {
+        margin-left: 35px;
+    }
+    #section7 #country  {
+        margin-left: 35px;
+    }
+    #icon-lan {
+        left: 0;
+    }
+}
